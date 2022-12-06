@@ -32,6 +32,7 @@ public class EntrancePage extends AppCompatActivity {
 
 //        InternetStatus();
         Thread thread = new Thread( new implementingAPouaseTillItChecksTheConnection(getApplicationContext()));
+        thread.setPriority(Thread.MIN_PRIORITY);
         thread.start();
 
 
@@ -57,27 +58,34 @@ public class EntrancePage extends AppCompatActivity {
 
         @Override
         public void run() {
-            ContextCompat.getMainExecutor(context).execute(()  -> {
+//            ContextCompat.getMainExecutor(context).execute(()  -> {
                         int counter = 0;
 
 
                         while(counter <= 5 && !(CheckInternet.getNetworkInfo(context).equals("connected"))){
                             try{
-                                Thread.sleep(500);
+                                Thread.sleep(100);
                             }catch(Exception e){}
-
 
                             counter += 1;
                         }
+
+
+
                 if( !(CheckInternet.getNetworkInfo(context).equals("connected"))) {
                     InternetStatus();
                 }else{
                     InternetStatus();
+                    try{
+                        Thread.sleep(5000);
+                    }catch (Exception e){
+
+                    }
                     startActivity(new Intent(EntrancePage.this,MainLandingPage.class));
 
                 }
 
-            });
+//            };
 
 
 

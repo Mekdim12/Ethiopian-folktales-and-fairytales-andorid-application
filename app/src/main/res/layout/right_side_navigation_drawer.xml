@@ -8,7 +8,7 @@
     tools:context=".MainLandingPage"
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
+    tools:openDrawer="end"
     >
 
     <LinearLayout
@@ -29,7 +29,7 @@
             android:elevation="5dp"/>
 
         <FrameLayout
-            android:id="@+id/fragmentContainer"
+            android:id="@+id/fragmentContainer2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
@@ -42,7 +42,7 @@
         android:id="@+id/container_navigation"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:layout_gravity="right"
         android:nestedScrollingEnabled="true"
         >
 

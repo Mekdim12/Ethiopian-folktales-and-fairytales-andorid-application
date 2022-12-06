@@ -3,10 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/drawable/ic_account_for_profile.xml" value="0.2645" />
         <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1495" />
         <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/activity_entrance_page.xml" value="0.259375" />
-        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/activity_main_landing_page.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/activity_for_first_option_menu.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/activity_main.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/activity_main_landing_page.xml" value="0.264" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/bootom_of_navigation.xml" value="0.20852680455888561" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/bootom_of_navigation_drawer.xml" value="0.21205643437366395" />
         <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/custome_dialoge_for_connection_off.xml" value="0.259375" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fg_main_spalsh_screen_layout.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fg_question_and_answer_page_for_only_riddles.xml" value="0.264" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fg_question_and_answering_solution.xml" value="0.264" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fg_showing_item_detail_after_choosing.xml" value="0.264" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fg_showing_list_of_items_found_inside_first_option.xml" value="0.2" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/first_option_on_item_selected_from_main_page.xml" value="0.1" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/fragement_splashpage.xml" value="0.1" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/holder_first_option_on_item_selected_from_main_page.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/right_navigation_drawer_header.xml" value="0.21205643437366395" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/right_side_navigation_drawer.xml" value="0.21205643437366395" />
+        <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/layout/top_of_navigation_drawer.xml" value="0.264" />
         <entry key="..\:/Users/MekdimTamirat/AndroidStudioProjects/EthiopianProverbsandFolkTales/app/src/main/res/menu/list_of_menu.xml" value="0.259375" />
       </map>
     </option>

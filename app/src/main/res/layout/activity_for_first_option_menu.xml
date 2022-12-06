@@ -8,7 +8,7 @@
     tools:context=".MainLandingPage"
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
+    tools:openDrawer="right"
     >
 
     <LinearLayout
@@ -21,30 +21,64 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/teal_700"
+            android:elevation="5dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/Theme.AppCompat.Light"
-            app:title="ዋና ማውጫ"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:elevation="5dp"/>
+            app:popupTheme="@style/Theme.AppCompat.Light">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                >
+
+                <ImageButton
+                    android:id="@+id/backToMainPage"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/teal_700"
+                    android:foregroundGravity="left"
+
+                    android:src="@drawable/ic_arrow_back_" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:text="Text" />
+
+
+                <ImageButton
+                    android:id="@+id/right_menu_navigation_drawer_hamburger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/teal_700"
+                    android:src="@drawable/ic__menu_"
+                    android:padding="10dp"
+                    android:layout_marginEnd="12dp"/>
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
 
         <FrameLayout
-            android:id="@+id/fragmentContainer"
+            android:id="@+id/first_main_fragmentContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
     </LinearLayout>
 
 
-
-
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/container_navigation"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:nestedScrollingEnabled="true"
-        >
+        android:layout_gravity="end"
+        android:nestedScrollingEnabled="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -55,9 +89,10 @@
                 android:id="@+id/topnavigation"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_gravity="start"
+                android:layout_gravity="right"
                 app:headerLayout="@layout/right_navigation_drawer_header"
-                app:menu="@menu/list_of_menu" />
+                app:menu="@menu/list_of_menu"
+                />
 
 
             <com.google.android.material.navigation.NavigationView
@@ -65,7 +100,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true">
-
                 <include layout="@layout/bootom_of_navigation"/>
             </com.google.android.material.navigation.NavigationView>
 

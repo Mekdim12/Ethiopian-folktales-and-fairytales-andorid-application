@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="seomthingblackbutNotBlack">#51613f</color>
     <color name="whitebutnotwhite">	#dbd1bb</color>
+    <color name="transparent">#77ffffff</color>
 </resources>
